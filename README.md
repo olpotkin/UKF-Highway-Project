@@ -6,6 +6,8 @@ The goal of this project to implement an Unscented Kalman Filter to estimate the
 Success of the project can be defined by RMSE values that are lower that the tolerance:
 _px, py, vx, vy output coordinates must have an RMSE <= [0.30, 0.16, 0.95, 0.70] after running for longer than 1 second_.
 
+<img src="media/ukf_highway_tracked.gif" width="700" height="400" />
+
 ## Build Instruction
 
 The main program can be built and ran by doing the following from the project top directory.
